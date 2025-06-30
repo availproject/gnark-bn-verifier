@@ -5,4 +5,4 @@ edition = "2021"
 
 [dependencies]
 anyhow = { version = "1.0.40" }
-bn = { version = "0.6.0", package = "substrate-bn-succinct" }
+bn = { version = "0.6.0-v5.0.0", package = "substrate-bn-succinct" }
