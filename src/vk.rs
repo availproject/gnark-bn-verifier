@@ -1,3 +1,5 @@
+use alloc::vec::Vec;
+
 use super::{
     io::{unchecked_compressed_x_to_g1_point, unchecked_compressed_x_to_g2_point},
     types::{Groth16G1, Groth16G2},

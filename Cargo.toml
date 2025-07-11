@@ -3,6 +3,14 @@ name = "gnark-bn-verifier"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+crate-type = ["rlib"]
+
+[features]
+default = ["std"]
+std = ["anyhow/std"]
+
+
 [dependencies]
-anyhow = { version = "1.0.40" }
+anyhow = { version = "1", default-features = false }
 bn = { version = "0.6.0-v5.0.0", package = "substrate-bn-succinct" }
